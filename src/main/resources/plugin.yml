@@ -1,0 +1,19 @@
+name: FeatherTouch
+version: '${version}'
+main: dev.knabbiii.feathertouch.FeatherTouchPlugin
+api-version: '1.20'
+authors: [Knabbiii]
+description: A lightweight plugin that makes hitting with a feather remove damage but keep knockback
+website: https://github.com/Knabbiii
+folia-supported: true
+
+commands:
+  feathertouch:
+    description: FeatherTouch plugin commands
+    usage: /feathertouch reload
+    aliases: [ft]
+
+permissions:
+  feathertouch.reload:
+    description: Allows reloading the plugin configuration
+    default: op

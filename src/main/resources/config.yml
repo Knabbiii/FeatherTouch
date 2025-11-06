@@ -1,0 +1,15 @@
+# FeatherTouch Configuration
+# A plugin that makes feather hits push without damage
+
+# Enable/disable metrics collection (bStats)
+# This helps the developer understand plugin usage
+# You can disable this if you don't want to send anonymous usage data
+metrics: true
+
+# Plugin settings
+settings:
+  # Enable/disable the plugin functionality
+  enabled: true
+  
+  # Play a soft whoosh sound when feather touch occurs
+  sound: true
