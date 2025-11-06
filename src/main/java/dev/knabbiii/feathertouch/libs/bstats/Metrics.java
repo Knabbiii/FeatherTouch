@@ -96,6 +96,7 @@ public class Metrics {
     try {
       isFolia = Class.forName("io.papermc.paper.threadedregions.RegionizedServer") != null;
     } catch (Exception e) {
+      // Folia not available - this is expected on non-Folia servers
     }
     metricsBase =
         new MetricsBase(
