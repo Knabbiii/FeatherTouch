@@ -2,11 +2,11 @@
 
 ![FeatherTouch Banner](.github/assets/FeatherTouch.png)
 
-[![Spigot Downloads](https://img.shields.io/spiget/downloads/130005?style=for-the-badge&logo=spigotmc&color=79c10f)](https://www.spigotmc.org/resources/feathertouch.130005/)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/feathertouch?logo=modrinth&style=for-the-badge&label=Downloads&color=79c10f)](https://modrinth.com/plugin/feathertouch)
-[![CodeFactor](https://img.shields.io/codefactor/grade/github/knabbiii/feathertouch?style=for-the-badge&logo=codefactor&color=79c10f&label=Code%20Quality)](https://www.codefactor.io/repository/github/knabbiii/feathertouch)
-[![License: MIT](https://img.shields.io/github/license/knabbiii/feathertouch?color=79c10f&label=License&style=for-the-badge&logo=github)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/v/release/knabbiii/feathertouch?style=for-the-badge&label=Release&color=79c10f&logo=github)](https://github.com/Knabbiii/feathertouch/releases)
+[![Spigot Downloads](https://img.shields.io/spiget/downloads/130005?style=for-the-badge&logo=spigotmc&color=d1d7dc)](https://www.spigotmc.org/resources/feathertouch.130005/)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/feathertouch?logo=modrinth&style=for-the-badge&label=Downloads&color=d1d7dc)](https://modrinth.com/plugin/feathertouch)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/knabbiii/feathertouch?style=for-the-badge&logo=codefactor&color=d1d7dc&label=Code%20Quality)](https://www.codefactor.io/repository/github/knabbiii/feathertouch)
+[![License: MIT](https://img.shields.io/github/license/knabbiii/feathertouch?color=d1d7dc&label=License&style=for-the-badge&logo=github)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/knabbiii/feathertouch?style=for-the-badge&label=Release&color=d1d7dc&logo=github)](https://github.com/Knabbiii/feathertouch/releases)
 
 </div>
 
