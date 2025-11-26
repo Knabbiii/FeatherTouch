@@ -2,7 +2,7 @@ package dev.knabbiii.feathertouch;
 
 import dev.knabbiii.feathertouch.command.FeatherTouchCommand;
 import dev.knabbiii.feathertouch.listener.FeatherDamageListener;
-import dev.knabbiii.feathertouch.libs.bstats.Metrics;
+import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  * A lightweight Minecraft plugin that makes hitting with a feather remove damage but keep knockback.
  * 
  * @author Knabbiii
- * @version 1.0
+ * @version 1.1
  * @since 1.0
  */
 public final class FeatherTouchPlugin extends JavaPlugin {

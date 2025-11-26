@@ -1,9 +1,10 @@
 plugins {
     id 'java'
+    id 'com.gradleup.shadow' version '8.3.5'
 }
 
 group = 'dev.knabbiii'
-version = '1.0'
+version = '1.1'
 description = 'FeatherTouch - A plugin that makes feather hits push without damage'
 
 java {
@@ -28,6 +29,9 @@ repositories {
 
 dependencies {
     compileOnly 'io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT'
+    
+    // bStats metrics
+    implementation 'org.bstats:bstats-bukkit:3.0.2'
     
     // Testing dependencies
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
@@ -62,4 +66,14 @@ processResources {
 
 test {
     useJUnitPlatform()
+}
+
+shadowJar {
+    archiveClassifier.set('')
+    
+    relocate 'org.bstats', 'dev.knabbiii.feathertouch.libs.bstats'
+}
+
+build {
+    dependsOn shadowJar
 }
