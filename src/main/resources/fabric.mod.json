@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "feathertouch",
+	"version": "${version}",
+	"name": "FeatherTouch",
+	"description": "Push mobs gently with feathers - no damage, just gentle nudges! Server-side only mod.",
+	"authors": [
+		"Knabbiii"
+	],
+	"contact": {
+		"homepage": "https://github.com/Knabbiii/FeatherTouch",
+		"sources": "https://github.com/Knabbiii/FeatherTouch",
+		"issues": "https://github.com/Knabbiii/FeatherTouch/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/feathertouch/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"server": [
+			"dev.knabbiii.feathertouch.FeatherTouch"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.3"
+	}
+}
