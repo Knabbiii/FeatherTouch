@@ -3,7 +3,7 @@
 	"id": "feathertouch",
 	"version": "${version}",
 	"name": "FeatherTouch",
-	"description": "Push mobs gently with feathers - no damage, just gentle nudges! Server-side only mod.",
+	"description": "Push mobs gently with feathers - no damage, just gentle nudges! Works in singleplayer and multiplayer. Optional on client when installed on server.",
 	"authors": [
 		"Knabbiii"
 	],
@@ -14,9 +14,9 @@
 	},
 	"license": "MIT",
 	"icon": "assets/feathertouch/icon.png",
-	"environment": "server",
+	"environment": "*",
 	"entrypoints": {
-		"server": [
+		"main": [
 			"dev.knabbiii.feathertouch.FeatherTouch"
 		]
 	},

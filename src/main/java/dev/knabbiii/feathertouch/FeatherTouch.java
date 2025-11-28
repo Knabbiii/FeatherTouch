@@ -1,6 +1,6 @@
 package dev.knabbiii.feathertouch;
 
-import net.fabricmc.api.DedicatedServerModInitializer;
+import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -21,15 +21,15 @@ import java.util.Map;
 import java.util.UUID;
 
 /**
- * FeatherTouch Fabric Mod (Server-side only)
+ * FeatherTouch Fabric Mod
  * 
  * A lightweight Minecraft mod that makes hitting with a feather remove damage but keep knockback.
- * This is a server-side only mod - clients do not need to install it!
+ * Works in singleplayer and multiplayer. Optional on client when installed on server.
  * 
  * @author Knabbiii
  * @version 1.1
  */
-public class FeatherTouch implements DedicatedServerModInitializer {
+public class FeatherTouch implements ModInitializer {
 	public static final String MOD_ID = "feathertouch";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	
@@ -40,8 +40,8 @@ public class FeatherTouch implements DedicatedServerModInitializer {
 	private final Map<UUID, Long> lastHitTime = new HashMap<>();
 
 	@Override
-	public void onInitializeServer() {
-		LOGGER.info("FeatherTouch is starting up (Server-side only)...");
+	public void onInitialize() {
+		LOGGER.info("FeatherTouch is starting up...");
 		
 		AttackEntityCallback.EVENT.register(this::onAttackEntity);
 		
